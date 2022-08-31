@@ -11,6 +11,7 @@
 		70C8470428BFB87300F89087 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70C8470328BFB87300F89087 /* Assets.xcassets */; };
 		70C8470728BFB87300F89087 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 70C8470528BFB87300F89087 /* MainMenu.xib */; };
 		70C8470928BFB87300F89087 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C8470828BFB87300F89087 /* main.m */; };
+		70C8471128BFB89F00F89087 /* MyApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 70C8471028BFB89F00F89087 /* MyApplication.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,8 @@
 		70C8470628BFB87300F89087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		70C8470828BFB87300F89087 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		70C8470A28BFB87300F89087 /* MyApplication.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MyApplication.entitlements; sourceTree = "<group>"; };
+		70C8471028BFB89F00F89087 /* MyApplication.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyApplication.m; sourceTree = "<group>"; };
+		70C8471228BFB8BE00F89087 /* MyApplication.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyApplication.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 				70C8470328BFB87300F89087 /* Assets.xcassets */,
 				70C8470528BFB87300F89087 /* MainMenu.xib */,
 				70C8470828BFB87300F89087 /* main.m */,
+				70C8471028BFB89F00F89087 /* MyApplication.m */,
+				70C8471228BFB8BE00F89087 /* MyApplication.h */,
 				70C8470A28BFB87300F89087 /* MyApplication.entitlements */,
 			);
 			path = MyApplication;
@@ -132,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70C8471128BFB89F00F89087 /* MyApplication.m in Sources */,
 				70C8470928BFB87300F89087 /* main.m in Sources */,
 				70C8470228BFB87200F89087 /* AppDelegate.m in Sources */,
 			);

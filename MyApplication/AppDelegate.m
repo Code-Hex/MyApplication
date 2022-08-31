@@ -14,13 +14,17 @@
 
 @implementation AppDelegate
 
+- (void)applicationWillFinishLaunching:(NSNotification *)notification {
+    NSLog(@"Hello applicationWillFinishLaunching!");
+}
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-    // Insert code here to initialize your application
+    NSLog(@"Hello applicationDidFinishLaunching!");
 }
 
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
-    // Insert code here to tear down your application
+    NSLog(@"Hello applicationWillTerminate!");
 }
 
 
